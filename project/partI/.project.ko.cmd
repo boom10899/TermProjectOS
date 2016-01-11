@@ -1,0 +1,1 @@
+cmd_/root/OS/project/partI/project.ko := ld -r -m elf_x86_64 -T /usr/src/kernels/3.10.0-229.20.1.el7.x86_64/scripts/module-common.lds --build-id  -o /root/OS/project/partI/project.ko /root/OS/project/partI/project.o /root/OS/project/partI/project.mod.o
